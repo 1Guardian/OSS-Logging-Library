@@ -1,6 +1,6 @@
 # OSS-Logging-Library
 
-# IMPORTANT NOTES
+## IMPORTANT NOTES
 
 - The driver program will generate 1 of 4 posible messages each time the program runs
   if the program generates a FATAL message, it will write out to savelog and exit (as requested). 
@@ -10,7 +10,7 @@
   message my logger prints when a Log of type "FATAL" has been passed to let the user know why execution
   is terminating and where the log is stored. 
 
-# Logger Library and Driver: Overview
+## Logger Library and Driver: Overview
 
 The LoggerLibrary is a class that contains functions and a struct and vector queue
 that allows for easy logging of error, informatonal, fatal, and warning messages.
@@ -20,13 +20,13 @@ To invoke the driver program, you call it with optional command line switches as
 ./driver [-h] [-t sec] [logfile]
 
 
-## Getting Started (Compiling)
+### Getting Started (Compiling)
 
 To compile both the driver program and the Logger library, simple use of 'make'
 will compile both for your use. 'make clean' will remove the created object files and the
 executable binary that was compiled using the object files
 
-### Information
+#### Information
 
 The program will send messages that are generated using Lorem Ipsum. It will attach a value of either
 'warning', 'info', 'error', or 'fatal' to the generated message and push it for addition to the log. 
