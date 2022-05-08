@@ -1,15 +1,5 @@
 # OSS-Logging-Library
 
-## IMPORTANT NOTES
-
-- The driver program will generate 1 of 4 posible messages each time the program runs
-  if the program generates a FATAL message, it will write out to savelog and exit (as requested). 
-
-  Quick Note: If you see the message: "Fatal Message Passed. Writing log to 'savelog' and exiting."
-  it is not an error (although you likely already know that, just covering all bases). That is the
-  message my logger prints when a Log of type "FATAL" has been passed to let the user know why execution
-  is terminating and where the log is stored. 
-
 ## Logger Library and Driver: Overview
 
 The LoggerLibrary is a class that contains functions and a struct and vector queue
